@@ -5,7 +5,7 @@
 
 1) Clone this repo:
 ```sh
-git clone
+git clone https://github.com/j-000/EC2BOILERPLATE.git
 ```
 2) Create a virtual environment and install the requirements:
 ```sh
