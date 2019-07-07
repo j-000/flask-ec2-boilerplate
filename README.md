@@ -53,7 +53,11 @@ This updates the server, installs python3, virtualenv and apache server.
 git clone ...
 ```
 
-6) Create a symlink so that the project directory appears in /var/www/html. Replace **flaskproject** for the name of your project root folder. Enable wsgi.
+For all commands, ensure you replace **flaskproject** for the name of your project root folder. 
+
+
+6) Create a symlink so that the project directory appears in /var/www/html. 
+Enable wsgi.
 ```sh
 sudo ln -sT ~/flaskproject /var/www/html/flaskproject
 sudo a2enmod wsgi
