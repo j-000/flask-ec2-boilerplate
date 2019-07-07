@@ -32,7 +32,7 @@ Once your project is production ready, you need to do the following:
 
 This will make it simple to download the code in your EC2 instance. Alternatively, you can use an FTP application like FileZilla.
 
-2) Log into your AWS console account and create an EC2 instance. You will need to download the PEM file that will allow you to connect to the instance via the command prompt or terminal. There are some tutorials online about laucing an EC2 instance. 
+2) Log into your AWS console account and create an EC2 instance. You will need to download the PEM file that will allow you to connect to the instance via the command prompt or terminal. There are some tutorials online about launching an EC2 instance. 
 
 3) SSH into your instance. Make sure your PEM file is in the same path when you run the following command. You can find the SSH command by selecting your instance in the AWS console and clicking `connect`. The command looks like:
 ```sh
