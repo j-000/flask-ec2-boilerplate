@@ -7,5 +7,5 @@ virtualenv venv --python=python3
 source venv/bin/activate
 pip install -r requirements.txt
 
-echo "Create a simlink between the project and /www/var/"
+echo "Create a simlink between the project and /var/www/html"
 sudo ln -sT ~/mainproject /var/www/html/mainproject

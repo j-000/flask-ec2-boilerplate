@@ -4,7 +4,7 @@ echo "Creating server .conf file.\n"
 sudo rm /etc/apache2/sites-enabled/000-default.conf
 echo "Do you have a custom domain? (y/n)"
 read customDomain
-if [ $customDomain = "y"]
+if [[ $customDomain = 'y' ]]; then
   echo "Make sure the A records in the DNS settings are pointing to the EC2 instance.\n"
   echo "Forcing HTTPS is on.\n"
   echo "Enter domain name without the protocol: "
