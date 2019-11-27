@@ -8,8 +8,6 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install apache2 libapache2-mod-wsgi-py3 virtualenv
 
-echo "Cloning boiler-plate gitbuh repo into 'mainproject' directory.\n"
-git clone git@github.com:j-000/flask-ec2-boilerplate.git mainproject
 cd mainproject
 echo "Creating virtual environment for project and installing dependencies.\n"
 virtualenv venv
