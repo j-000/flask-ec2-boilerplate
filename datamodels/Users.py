@@ -44,7 +44,6 @@ class User(db.Model, UserMixin):
     return user
 
   def generate_session_token(self, expires_in=3600):
-    # DO NOT rename 'exp' flag. This is used inside jwt.encode() to verify if the token has expired.
     token = jwt.encode({'user_email': self.email, 'id' : self.id , 
     'exp': time.time() + expires_in}, app.config['SECRET_KEY'], algorithm='HS256').decode('utf-8')
     self.token = token
