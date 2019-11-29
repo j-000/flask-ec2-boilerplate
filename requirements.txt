@@ -30,3 +30,4 @@ Werkzeug==0.15.4
 wrapt==1.11.1
 WTForm==1.0
 WTForms==2.2.1
+PyJWT==1.7.1
