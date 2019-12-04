@@ -6,3 +6,5 @@ sudo add-apt-repository universe
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get install certbot python-certbot-apache
 sudo certbot certonly --apache
+sudo a2enmod ssl
+sudo a2enmod rewrite
